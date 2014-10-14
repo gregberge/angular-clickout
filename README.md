@@ -8,7 +8,7 @@ AngularJS directive to handle a click outside an element.
 ## Install
 
 ```
-npm install angular-clickout
+bower install angular-clickout
 ```
 
 ## Usage
