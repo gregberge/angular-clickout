@@ -1,7 +1,7 @@
 {
   "name": "angular-clickout",
   "main": "angular-clickout.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/neoziro/angular-clickout",
   "authors": [
     "Greg Bergé <neoziro@gmail.com>"

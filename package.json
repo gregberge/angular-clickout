@@ -1,6 +1,6 @@
 {
   "name": "angular-clickout",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "AngularJS directive to handle a click outside an element.",
   "main": "angular-clickout.js",
   "directories": {
