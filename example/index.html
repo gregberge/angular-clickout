@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body ng-controller="MyCtrl as ctrl">
+    <button type="button" ng-click="ctrl.clickOn()" click-out="ctrl.clickOut()">Button</button>
+    <div>{{ctrl.result || 'Click out or on the button'}}</div>
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../angular-clickout.js"></script>
+    <script>
+    angular.module('app', ['clickOut'])
+    .controller('MyCtrl', function () {
+      this.clickOn = function () {
+        this.result = 'click-on';
+      };
+
+      this.clickOut = function () {
+        this.result = 'click-out';
+      };
+    });
+    </script>
+  </body>
+</html>

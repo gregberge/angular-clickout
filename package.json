@@ -1,0 +1,41 @@
+{
+  "name": "angular-clickout",
+  "version": "0.0.0",
+  "description": "AngularJS directive to handle a click outside an element.",
+  "main": "angular-clickout.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neoziro/angular-clickout.git"
+  },
+  "keywords": [
+    "angular",
+    "directive",
+    "clickout",
+    "click",
+    "outside"
+  ],
+  "author": "Greg Bergé <berge.greg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neoziro/angular-clickout/issues"
+  },
+  "homepage": "https://github.com/neoziro/angular-clickout",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.6.0",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-mocha": "^0.1.9",
+    "mocha": "^1.21.5",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.6.0"
+  }
+}
