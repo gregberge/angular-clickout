@@ -1,4 +1,4 @@
-/*! Angular clickout v1.0.0 | © 2014 Greg Bergé | License MIT */
+/*! Angular clickout v1.0.1 | © 2014 Greg Bergé | License MIT */
 (function (window, angular, undefined) { 'use strict';
 
   /**
