@@ -7,7 +7,7 @@
    */
 
   angular.module('clickOut', [])
-  .directive('clickOut', function ($window, $parse) {
+  .directive('clickOut', ['$window', '$parse', function ($window, $parse) {
     return {
       restrict: 'A',
       link: function (scope, element, attrs) {
@@ -20,6 +20,6 @@
         });
       }
     };
-  });
+  }]);
 
 }(window, window.angular));
